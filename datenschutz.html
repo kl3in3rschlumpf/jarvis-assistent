@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jarvis – Datenschutzerklärung</title>
+<style>
+  :root { --bg: #f6f7f9; --text: #1d2330; --muted: #5d6578; --card: #fff; --line: #e2e5eb; --accent: #3d6df2; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #13161d; --text: #e6e9ef; --muted: #9aa2b4; --card: #1b1f28; --line: #2a303c; --accent: #7a98f7; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 28px; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  h2 { font-size: 18px; margin: 28px 0 8px; }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  footer { margin-top: 36px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Datenschutzerklärung</h1>
+  <p class="lead">für die Anwendung „Jarvis“ · Stand: 10. Oktober 2026</p>
+
+  <h2>1. Wer betreibt Jarvis?</h2>
+  <p>Jarvis ist eine privat betriebene Assistenz-Software. Sie läuft auf dem eigenen Computer ihres Betreibers
+    und wird ausschließlich von ihm selbst genutzt. Sie wird Dritten nicht angeboten.
+    Kontakt: <a href="https://github.com/kl3in3rschlumpf">github.com/kl3in3rschlumpf</a>.</p>
+
+  <h2>2. Welche Google-Daten verwendet Jarvis?</h2>
+  <p>Nach ausdrücklicher Zustimmung über die Google-Anmeldung greift Jarvis auf folgende Daten zu:</p>
+  <ul>
+    <li><strong>Kalenderliste</strong> (nur lesend), um zu wissen, welche Kalender angezeigt werden</li>
+    <li><strong>Termine</strong>: lesen, anlegen und auf Anweisung des Nutzers löschen</li>
+  </ul>
+  <p>Auf andere Google-Dienste wie Gmail, Drive oder Kontakte greift Jarvis nicht zu.</p>
+
+  <h2>3. Wofür werden die Daten verwendet?</h2>
+  <p>Ausschließlich, um dem Nutzer seine Termine zu nennen, ihn an Termine zu erinnern und auf seinen Wunsch
+    oder anhand seiner eigenen Regeln neue Termine einzutragen, zum Beispiel aus Terminbestätigungen in
+    seinem E-Mail-Postfach.</p>
+
+  <h2>4. Wo werden die Daten gespeichert?</h2>
+  <ul>
+    <li>Der Google-Zugangsschlüssel (OAuth-Token) wird nur lokal auf dem Computer des Nutzers gespeichert.</li>
+    <li>Termindaten werden bei Bedarf direkt von Google abgerufen und nicht dauerhaft gespeichert, es sei denn,
+      der Nutzer bittet Jarvis ausdrücklich, sich etwas zu merken. Dann bleibt es nur lokal auf seinem Computer.</li>
+  </ul>
+
+  <h2>5. Weitergabe an Dritte</h2>
+  <p>Um Anfragen in natürlicher Sprache zu verstehen und zu beantworten, nutzt Jarvis ein Sprachmodell.
+    Dafür werden die für eine Anfrage nötigen Inhalte, zum Beispiel die Termine eines Tages, an den vom Nutzer
+    gewählten Anbieter übertragen. Derzeit ist das Anthropic (Claude API), alternativ ein Modell, das lokal auf
+    dem eigenen Computer läuft.</p>
+  <p>Darüber hinaus werden keine Daten an Dritte weitergegeben, nicht verkauft und nicht für Werbung verwendet.</p>
+
+  <h2>6. Einhaltung der Google-Richtlinien</h2>
+  <p>Die Nutzung und Übertragung von Informationen, die Jarvis über Google-APIs erhält, entspricht der
+    <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+    einschließlich der Anforderungen zur eingeschränkten Nutzung („Limited Use“).</p>
+
+  <h2>7. Zugriff widerrufen</h2>
+  <p>Der Zugriff kann jederzeit unter
+    <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> widerrufen werden.
+    Der lokal gespeicherte Zugangsschlüssel ist danach wertlos und kann zusätzlich in Jarvis gelöscht werden.</p>
+
+  <footer><a href="index.html">← Startseite</a></footer>
+</main>
+</body>
+</html>
